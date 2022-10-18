@@ -11,34 +11,28 @@ body {
   flex-direction: row; 
   background-color: #FFEEE6;
 }
-header {
+header{
   display: flex;
-  width: 100%;
-  background-color: transparent;
+  justify-content: space-between;
+  height: 80px;
+  background-color: coral;
+  align-items: center;
+  z-index: 1;
+  border-bottom: 2px solid grey;
+}
+#header {
   position: fixed;
-  
- /*margin-bottom: 1vh;*/
-  height: 12vh;
-  min-height: 100px;
-  /*height: 20%;*/
+  width: 100%;
+}
+.logo {
+  display:flex; 
+  padding-left: 15px;
+}
+.logo img {
+  height: 70px;
 }
 
-.navbar {
-  display: flex;
-  display: inline; 
-  /* Set the navbar to fixed position */
-  top: 0;
-  /* Position the navbar at the top of the page */
-  width: 85%;
-  /* Full width */
-  height: 100%;
-  background-color: transparent;
-  justify-content: right;
- /* align-items: center;*/
-  float: right;
-}
-
-.navbar ul {
+nav ul {
   height: 100%;
   margin-left: 50px;
   padding: 15px;
@@ -46,13 +40,13 @@ header {
  float: right;
 }
 
-.navbar ul li {
+nav ul li {
   list-style: none;
   margin: 0 25px;
   transition: 0.4s;
 }
 
-.navbar ul li a {
+nav ul li a {
   display: inline-block;
   text-decoration: none;
   position: relative;
@@ -64,32 +58,24 @@ header {
   text-transform: uppercase;
 }
 
-.navbar ul:hover li a {
+nav ul:hover li a {
   opacity: 0.7;
   filter: blur(1px);
 }
 
-.navbar ul li a:hover {
+nav ul li a:hover {
   background-color: rgb(194, 236, 240);
   transition: .5s;
   filter: blur(0px);
   transform: scale(1);
 }
 
-.navbar ul li a.active {
+nav ul li a.active {
   background-color: rgb(142, 237, 245);
   color: rgb(163, 14, 14);
   transition: .5s
 } 
-.logo {
-  width: 15%;
-  height: 100%;
-  align-items: left;
-  }
-  .logo1 {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-  }
+
  
 
 .contenedor{
@@ -126,7 +112,7 @@ h1{
   height: 800px;
 }
 .main1{
-  background-image: url(/images/imagen0.jpg);
+  background-image: url(../images/imagen0.jpg);
   background-size: cover;
 }
 /*MainGaleria-Fin*/
@@ -188,36 +174,36 @@ footer :hover{
 }
 /*GAleria Fotos*/
 .item1{
-  background-image: url(/images/imagen1.jpg);
+  background-image: url(../images/imagen1.jpg);
   background-size: cover;
 }
 .item2{
-  background-image: url(/images/imagen2.jpg);
+  background-image: url(../images/imagen2.jpg);
   background-size: cover;
 }
 .item3{
-  background-image: url(/images/imagen3.jpg);
+  background-image: url(../images/imagen3.jpg);
   background-size: cover;
 
 }
 .item4{
-  background-image: url(/images/imagen4.jpg);
+  background-image: url(../images/imagen4.jpg);
   background-size: cover;
 }
 .item5{
-  background-image: url(/images/imagen5.jpg);
+  background-image: url(../images/imagen5.jpg);
   background-size: cover;
 }
 .item6{
-  background-image: url(/images/imagen6.jpg);
+  background-image: url(../images/imagen6.jpg);
   background-size: cover;
 }
 .item7{
-  background-image: url(/images/imagen7.jpg);
+  background-image: url(../images/imagen7.jpg);
   background-size: cover;
 }
 .item8{
-  background-image: url(/images/imagen8.jpg);
+  background-image: url(../images/imagen8.jpg);
   background-size: cover;
 }
 /*media queries- inicio*/
@@ -262,9 +248,7 @@ footer :hover{
   }
   .contenedor{
     background-image: none;
-    p{
-      
-    }
+    
   }
 
 }
@@ -301,3 +285,4 @@ footer :hover{
       grid-column: 4/6;
   }
 }
+
