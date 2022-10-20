@@ -9,7 +9,7 @@
 body {
   display: flex;
   flex-direction: row; 
-    background-color: #FBE2E5;
+  background-color: #FBE2E5;
 }
 header {
   display: flex;
