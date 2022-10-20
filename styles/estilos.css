@@ -65,7 +65,7 @@ nav ul:hover li a {
 }
 
 nav ul li a:hover {
-  background-color: rgb(194, 236, 240);
+  background-color: ;
   transition: .5s;
   filter: blur(0px);
   transform: scale(1);
@@ -77,9 +77,9 @@ nav ul li a.active {
   transition: .5s
 } 
 
-.historia{
+.historia {
   height: 600px;
- background-color: #FFDACC;
+  background-color: #FBE2E5;;
  color: black;
 }
 h2{
@@ -117,91 +117,34 @@ h1{
 
 
 
-.contenedor1{
-  background-color: #FFDACC;
-  padding: 5px;
-  min-height: 400px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.item{
-  background-color: #FFDACC;
-  border: 2px solid #FFEEE6;
-  width: 100%;
-  text-align: center;
-  font-size: 25px;
-  min-height: 50px;
-}
-
-/*Pagina Contacto */
-.container1 {
-display: flex;
-display: inline; 
-
-}
 /*SectionHistora__Galeria-Fin*/
 
 /*Section Footer-Inicio*/
 
 #footerMenu{
-  height: 10%;
-  background-color: #FFEEE6;
+  height: 20%%;
+  background-color: #767C77;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: right;
+  align-items: center;
   margin-top: auto;
-   min-height: 50px;
-}
+  min-height: 70px;
+  border-top: 4px solid #9CADA4;
+  }
+
 footer :hover{
   background-image: url();
 }
 
 #footerMenu img {
   margin: 1vh;
-  width: 2vw;
+  width: 2.5vw;
 }
 
 /*Sectio Footer-Fin*/
 
-
-/*GAleria Fotos*/
-.item1{
-  background-image: url(../images/imagen1.jpg);
-  background-size: cover;
-}
-.item2{
-  background-image: url(../images/imagen2.jpg);
-  background-size: cover;
-}
-.item3{
-  background-image: url(../images/imagen3.jpg);
-  background-size: cover;
-
-}
-.item4{
-  background-image: url(../images/imagen4.jpg);
-  background-size: cover;
-}
-.item5{
-  background-image: url(../images/imagen5.jpg);
-  background-size: cover;
-}
-.item6{
-  background-image: url(../images/imagen6.jpg);
-  background-size: cover;
-}
-.item7{
-  background-image: url(../images/imagen7.jpg);
-  background-size: cover;
-}
-.item8{
-  background-image: url(../images/imagen8.jpg);
-  background-size: cover;
-}
-/*media queries- inicio*/
-
+/*@Mediaquerys */
 @media only screen and (max-width: 479px){
   
   header{

@@ -12,10 +12,20 @@
 }
 .historia1 p {
   margin: 5% 12% 5% 12%;
+  height: 35%;
 }
 
 .container {
   height: 80%;
 }
+
+/*Pagina Contacto */
+.container1 {
+  display: flex;
+  display: inline; 
+  
+  }
+/*@Mediaquerys */
+
 /*Section Footer-Inicio*/
 /
