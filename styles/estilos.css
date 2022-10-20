@@ -11,7 +11,7 @@ body {
   flex-direction: row; 
   background-color: #FFEEE6;
 }
-header{
+#header{
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -104,18 +104,7 @@ h1{
   font-family: "Raleway", sans-serif;
 }
 
-/*MAin Galeria-Inicio*/
-.main1{
-  margin: 6px;
-  display: flex;
-  flex-direction: column;
-  height: 800px;
-}
-.main1{
-  background-image: url(../images/imagen0.jpg);
-  background-size: cover;
-}
-/*MainGaleria-Fin*/
+
 
 .contenedor1{
   background-color: #FFDACC;
@@ -133,20 +122,7 @@ h1{
   font-size: 25px;
   min-height: 50px;
 }
-/*SectionHistoria__Galeria-Inicio*/
-.historia:hover{
-  background-image: url();
-  background-size: cover;
-}
-.historia{
-   height: 600px;
-  background-color: #FFDACC;
-  color: black;
-}
-h2{
-  text-align: center;
-  font-size: 30px;
-}
+
 /*Pagina Contacto */
 .container1 {
 display: flex;
@@ -154,6 +130,8 @@ display: inline;
 
 }
 /*SectionHistora__Galeria-Fin*/
+
+/*Section Footer-Inicio*/
 
 #footerMenu{
   background-color: #FFEEE6;
@@ -172,6 +150,10 @@ footer :hover{
   margin: 1vh;
   width: 2vw;
 }
+
+/*Sectio Footer-Fin*/
+
+
 /*GAleria Fotos*/
 .item1{
   background-image: url(../images/imagen1.jpg);
@@ -220,7 +202,7 @@ footer :hover{
     flex-direction: column;
     align-items: right;
   }
-  .navbar ul li a {
+  nav ul li a {
     font-size: 8px;
   } 
   h1{
@@ -254,7 +236,7 @@ footer :hover{
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
 
-  .navbar ul li a {
+  .nav ul li a {
     font-size: 10px;
   } 
 

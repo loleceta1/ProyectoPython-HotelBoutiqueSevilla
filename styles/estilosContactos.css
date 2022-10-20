@@ -1,0 +1,21 @@
+
+
+ /*Pagina Contacto */
+.container1 {
+    display: flex;
+    display: inline; 
+    
+    }
+.historia1 {
+  height: 45%;
+  
+}
+.historia1 p {
+  margin: 5% 12% 5% 12%;
+}
+
+.container {
+  height: 80%;
+}
+/*Section Footer-Inicio*/
+/

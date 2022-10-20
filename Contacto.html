@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/estilos.css">
+    <link rel="stylesheet" href="/styles/estilosContactos.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
       </style>
@@ -13,69 +15,72 @@
 <body>
     <div class="container1">
         <header>
-            <div class="logo">
-                <img class="logo1" src="../images/icono.png"  alt="">
-            </div>
-                <div class="navbar">
-                   
-                    <!-- Elementos del menu -->
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="historia.html">Historia</a></li>
-                        <li><a href="galeria.html">Galería</a></li>
-                        <li><a class="active" href="/Contacto.html">Hacé tu reserva</a></li>
-                    </ul>
-                </div>
+          <header id="header">
+            <a href="Index.html" class="logo">
+                <img src="./images/logo.png" alt="Logo">
+            </a>
+            <nav>
+
+                <!-- Elementos del menu -->
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a class="active" href="Contacto.html">Hacé tu reserva</a></li>
+                </ul>
+            </nav>
+        </header>
             </header>
-            
-       
+
             <section class="historia"><br> <br>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                    ex quis excepturi commodi expedita ratione, laudantium incidunt
-                    mollitia, magni accusamus cum facere nulla molestias delectus
-                    corrupti. Hic repellat nihil praesentium.
-                   
-                </p>
-            </section>
-            <section class="historia"><br> <br>
-              <div class="container">
-                <h2>Contactanos</h2>
-                <form action="/action_page.php">
-                  <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                  </div>
-                  <div class="form-group">
-                    <label for="pwd">Password:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-                  </div>
-                  <div class="form-group form-check">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            </section>
-           
-            <footer>
-                <div id="footerMenu">
-                    <img id="imagen2" src="../Iconos/facebook.png" alt="ic1" />
-                    <img id="imagen3" src="../Iconos/instagram.png" alt="ic2" />
-                    <img id="imagen4" src="../Iconos/linkedin.png" alt="ic3" />
-                    <img id="imagen5" src="../Iconos/youtube.png" alt="ic4" />
-                </div>
-           </footer>
-      
+              <p>
+                
+              </p>
+          </section>
+          <section class="historia1"><br> <br>
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                  ex quis excepturi commodi expedita ratione, laudantium incidunt
+                  mollitia, magni accusamus cum facere nulla molestias delectus
+                  corrupti. Hic repellat nihil praesentium.
+              </p>
+          </section>
+
+          <div class="container">
+ <form action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Dejanos tu e-mail:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
+  </div>
+  </form>
+  <h2>Haz tu consulta</h2>
+  <p>Te responderemos a la brevedad</p>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="comment">Consulta:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
     </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</div>
+
+          <footer>
+              <div id="footerMenu">
+                  <img id="imagen2" src="../Iconos/facebook.png" alt="ic1" />
+                  <img id="imagen3" src="../Iconos/instagram.png" alt="ic2" />
+                  <img id="imagen4" src="../Iconos/linkedin.png" alt="ic3" />
+                  <img id="imagen5" src="../Iconos/youtube.png" alt="ic4" />
+              </div>
+          </footer>
+       
+       
+           
    
          
    
       
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
