@@ -21,7 +21,8 @@ body {
   border-bottom: 2px solid grey;
 }
 #header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
 }
 .logo {
@@ -76,7 +77,16 @@ nav ul li a.active {
   transition: .5s
 } 
 
- 
+.historia{
+  height: 600px;
+ background-color: #FFDACC;
+ color: black;
+}
+h2{
+ text-align: center;
+ font-size: 30px;
+}
+
 
 .contenedor{
   margin: 5px;
