@@ -1,20 +1,4 @@
-/*#5F6C46
-#355C10;
 
-/*verde pasto*/
-
-/*#856C46
-/*marrón*/
-
-/*#FFF5E8
-/* blanco para el fondo*/
-
-/*#F5D19C
-/* rosa claro*/
-
-/*#145C2A
-#1C633C
-verde militar */
 /* https://www.youtube.com/watch?v=9VRkcnQ3GpA video nav responsive*/
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
@@ -29,7 +13,7 @@ verde militar */
 body {
     display: flex;
     flex-direction: row;
-    background-color: #F7D1BA;
+    background-color: #FBE2E5;
     min-height: 100vh;
     height: 100%;
 }
@@ -39,10 +23,10 @@ header {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background-color: #557571;
+    background-color: #767C77;
     align-items: center;
     z-index: 1;
-    border-bottom: 4px solid grey;
+    border-bottom: 4px solid #9CADA4;
 }
 
 #header {
@@ -98,7 +82,7 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-    background-color: #D49A89;
+    background-color: #FABEA7;
     color: black;
     transition: .5s
 }
