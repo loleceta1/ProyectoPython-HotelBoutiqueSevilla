@@ -9,17 +9,18 @@
 body {
   display: flex;
   flex-direction: row; 
-  background-color: #FFEEE6;
+    background-color: #FBE2E5;
 }
-header{
+header {
   display: flex;
   justify-content: space-between;
   height: 80px;
-  background-color: coral;
+  background-color: #767C77;
   align-items: center;
   z-index: 1;
-  border-bottom: 2px solid grey;
+  border-bottom: 4px solid #9CADA4;
 }
+
 #header {
   position: sticky;
   width: 100%;
@@ -52,7 +53,7 @@ nav ul li a {
   text-decoration: none;
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(39, 11, 11);
+  color: #FFF5E8;
   font-size: 16px;
   padding: 7px 13px;
   border-radius: 15px;
@@ -72,8 +73,8 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-  background-color: rgb(142, 237, 245);
-  color: rgb(163, 14, 14);
+  background-color: #FABEA7;
+  color: black;
   transition: .5s
 } 
 
