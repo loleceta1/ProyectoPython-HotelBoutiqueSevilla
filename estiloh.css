@@ -1,0 +1,204 @@
+/*#5F6C46
+#355C10;
+
+/*verde pasto*/
+
+/*#856C46
+/*marrón*/
+
+/*#FFF5E8
+/* blanco para el fondo*/
+
+/*#F5D19C
+/* rosa claro*/
+
+/*#145C2A
+#1C633C
+verde militar */
+/* https://www.youtube.com/watch?v=9VRkcnQ3GpA video nav responsive*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    /*box-sizing: border-box;*/
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #F7D1BA;
+    min-height: 100vh;
+    height: 100%;
+}
+
+/* empiezan estilos del header y navbar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: #557571;
+    align-items: center;
+    z-index: 1;
+    border-bottom: 4px solid grey;
+}
+
+#header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    padding-left: 15px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+nav ul {
+    height: 100%;
+    margin-left: 50px;
+    padding: 15px;
+    display: flex;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+    transition: 0.4s;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF5E8;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+nav ul:hover li a {
+    opacity: 0.7;
+    filter: blur(1px);
+}
+
+nav ul li a:hover {
+    transition: .5s;
+    filter: blur(0px);
+    transform: scale(1);
+}
+
+nav ul li a.active {
+    background-color: #D49A89;
+    color: black;
+    transition: .5s
+}
+
+/* terminan estilos del header y navbar*/
+
+/*empiezan los estilos para historia*/
+
+.contenedor {
+    display: grid;
+    grid-template: 3fr 1fr/ 40% 1fr;
+    margin: 3% 10%;
+    grid-gap: 20px;
+    grid-template-areas: "portada portada"
+        "foto texto";
+    height: 100vh;
+}
+
+.portada {
+    grid-area: portada;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    border-bottom: 7px double #557571;
+}
+
+.portada img {
+    border-radius: 3rem;
+    padding: 20px;
+}
+
+.foto {
+    grid-area: foto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.texto {
+    display: flex;
+    grid-area: texto;
+    justify-content: center;
+    /*Horizontal*/
+    align-items: center;
+    /*Vertical  */
+}
+
+.item {
+    background-color: transparent;
+    color: black;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.texto2 {
+    text-align: center;
+    margin: 15px;
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 14px;
+    border: 2px dashed #557571;
+    background-color: transparent;
+}
+
+.foto2 {
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.foto img {
+    border-radius: 45px;
+}
+
+/* terminan los estilos para historia*/
+
+/* empiezan los estilos para footer*/
+
+#footerMenu {
+    background-color: #FFEEE6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: right;
+    margin-top: auto;
+    min-height: 50px;
+    width: 100%;
+}
+
+footer :hover {
+    background-image: url();
+}
+
+#footerMenu img {
+    margin: 1vh;
+    width: 2vw;
+}
