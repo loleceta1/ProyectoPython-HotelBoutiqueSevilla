@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fbe2e5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #767c77;
+  align-items: center;
+  z-index: 1;
+  border-bottom: 4px solid #9cada4;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  padding-left: 15px;
+}
+
+.logo img {
+  height: 70px;
+}
+
+nav ul {
+  height: 100%;
+  margin-left: 50px;
+  padding: 15px;
+  display: flex;
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+  transition: 0.4s;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff5e8;
+  font-size: 16px;
+  padding: 7px 13px;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+nav ul:hover li a {
+  opacity: 0.7;
+  filter: blur(1px);
+}
+
+nav ul li a:hover {
+  transition: 0.5s;
+  filter: blur(0px);
+  transform: scale(1);
+}
+
+nav ul li a.active {
+  background-color: #fabea7;
+  color: black;
+  transition: 0.5s;
+}
+
+#footerMenu {
+  height: 20%;
+  background-color: #767c77;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: auto;
+  min-height: 70px;
+  border-top: 4px solid #9cada4;
+}
+
+footer :hover {
+  background-image: url();
+}
+
+#footerMenu img {
+  margin: 1vh;
+  width: 2.5vw;
+}
+
+/* empiezan estilos específicos de historia*/
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  height: 600px;
+  background-color: #fbe2e5;
+  color: black;
+  border-bottom: 7px double #557571;
+}
+.titulo {
+  height: 20%;
+  margin-top: 5vh;
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+  border-radius: 14px;
+  background-color: transparent;
+}
+
+.cuadroFoto {
+  height: 70%;
+  background-image: url(/images/hotel.png);
+  background-size:cover;
+  border-radius: 3em;
+}
+.home2 {
+  display: flex;
+  flex-direction: row;
+  min-height: 400px;
+  max-height: min-content;
+  margin: 5vh 0;
+  background-color: #fbe2e5;
+  color: black;
+}
+
+.fotos {
+  width: 50%;
+  background-image: url(/images/casaHistorica.png);
+  background-size:cover;
+  border-radius: 3em;
+  margin-right: 3vh;
+}
+.cuadro {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 2vh 5vw;
+  border: 2px dashed black;
+  border-radius: 1em;
+  background-color: #767c77;
+  text-align: center;
+  font-size: 1.3rem;
+}
