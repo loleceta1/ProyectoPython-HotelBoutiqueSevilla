@@ -15,8 +15,18 @@
   
  
   .parrafo {
-    margin: 5% 12% 5% 12%;
-    height: 35%
+    margin: 8% 5% 8% 5%;
+    height: 15%;
+    padding: 30px;
+    border-radius: 14px;
+    border: 2px dashed #557571;
+   background-color: transparent;
+  }
+  .parrafo p {
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
   }
   /*MainGaleria-Fin*/
 
