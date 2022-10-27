@@ -141,8 +141,8 @@ footer :hover{
   height: 70%;
   width: 60%;
   background-image: url(/images/hotel.png);
-  object-fit: cover;
-  /*background-size:cover;*/
+  /*object-fit: cover;*/
+  background-size:cover;
   border-radius: 3em;
 }
 .home2 {
