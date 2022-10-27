@@ -161,7 +161,7 @@ footer :hover{
     align-items: right;
   }
   nav ul li a {
-    font-size: 8px;
+    font-size: 12px;
   } 
   h1{
     font-size: 20px;
@@ -169,6 +169,15 @@ footer :hover{
   h2{
     font-size: 15px;
   }
+  .historia1 p {
+    font-size: 12px !important;
+  }
+  .parrafo p {
+    font-size: 8px;
+  }
+
+ 
+
   .contenedor1{
       grid-template-columns: 1fr 1fr;
   }
@@ -178,10 +187,12 @@ footer :hover{
   .item2{
       grid-row: 2/4;
   }
+  
   #footerMenu{
     flex-direction: column;
     align-items: flex-start;
   }
+
   #footerMenu img {
     margin: 3.5vh;
     width: 5vw;
@@ -197,16 +208,27 @@ footer :hover{
   .nav ul li a {
     font-size: 10px;
   } 
-
+  .parrafo p {
+    font-size: 14px;
+  }
+  .historia1 p {
+    font-size: 12px !important;
+  }
   .contenedor1{
       grid-template-columns: 1fr 1fr 1fr;
   }
   .item8{
       grid-column: 2/4;
   }
+  
+  #footerMenu{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   #footerMenu img {
     margin: 3.5vh;
-    width: 3.5vw;
+    width: 5vw;
   }
 }
 @media only screen and (min-width: 768px){
@@ -223,6 +245,16 @@ footer :hover{
   }
   .item8{
       grid-column: 4/6;
+  }
+
+  #footerMenu{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #footerMenu img {
+    margin: 3.5vh;
+    width: 5vw;
   }
 }
 /* @Mediaquerys menú hamburguesa*/
@@ -296,5 +328,15 @@ footer :hover{
   nav ul li a.active {
     background: none;
     color: #fff5e8;
+  }
+
+  #footerMenu{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #footerMenu img {
+    margin: 3.5vh;
+    width: 5vw;
   }
 }

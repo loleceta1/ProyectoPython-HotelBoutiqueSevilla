@@ -63,7 +63,7 @@ nav ul li a {
   display: inline-block;
   text-decoration: none;
   position: relative;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
   color: #fff5e8;
   font-size: 16px;
   padding: 7px 13px;
@@ -100,9 +100,6 @@ nav ul li a.active {
   border-top: 4px solid #9cada4;
 }
 
-footer :hover {
-  background-image: url();
-}
 
 #footerMenu img {
   margin: 1vh;
@@ -190,3 +187,30 @@ footer :hover {
   text-align: center;
   font-size: 3em;
 }
+/*Comienzan las @MediaQuearys*/
+@media only screen and (max-width: 479px){
+
+  #footerMenu{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #footerMenu img {
+    margin: 3.5vh;
+    width: 5vw;
+  }
+}
+
+  @media only screen and (min-width: 480px) and (max-width: 767px){
+  
+    #footerMenu{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  #footerMenu img {
+    margin: 3.5vh;
+    width: 3.5vw;
+  }
+}
+
+ 
+ 

@@ -2,21 +2,23 @@
 
  /*Pagina Contacto */
 .container1 {
+    width: 100%;
     display: flex;
     display: inline; 
     
     }
 .historia1 {
   height: 20%;
-  margin: 8% 15% 8% 15%;
-  padding: 30px;
+  margin: 8% 12% 8% 12%;
+  padding: 10px;
   border-radius: 14px;
   border: 2px dashed #557571;
  background-color: transparent;
 }
 .historia1 p {
   color: black;
-  font-size: 1.2em;
+  font-size: 18px;
+  padding : 15px;
   text-align: center;
   justify-content: center;
 }
