@@ -84,7 +84,7 @@
   } 
   
   .historia1 p { 
-    font-size: 12px;
+    font-size: 16px !important;
     padding : 8px;
     margin: 8px;
   }
