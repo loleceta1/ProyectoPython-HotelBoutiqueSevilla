@@ -42,7 +42,7 @@ header {
 }
 
 .logo img {
-  height: 70px;
+  height: 35px;
 }
 
 nav ul {
@@ -87,7 +87,11 @@ nav ul li a.active {
   color: black;
   transition: 0.5s;
 }
-
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #767C77;
+}
 #footerMenu {
   height: 20%;
   background-color: #767c77;
@@ -190,25 +194,22 @@ nav ul li a.active {
 /*Comienzan las @MediaQuearys*/
 @media only screen and (max-width: 479px){
 
-  #footerMenu{
-    flex-direction: column;
-    align-items: flex-start;
+  footer {
+    display: flex;
+    width: 100%;
+    background-color: #767C77;
   }
   #footerMenu img {
     margin: 3.5vh;
-    width: 5vw;
+    width: 2.5vw;
   }
 }
 
   @media only screen and (min-width: 480px) and (max-width: 767px){
   
-    #footerMenu{
-      flex-direction: column;
-      align-items: flex-start;
-    }
   #footerMenu img {
     margin: 3.5vh;
-    width: 3.5vw;
+    width: 2.5vw;
   }
 }
 

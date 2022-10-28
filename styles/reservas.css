@@ -1,6 +1,6 @@
 
 
- /*Pagina Contacto */
+ /*Pagina Reservas */
 .container1 {
     width: 100%;
     display: flex;
@@ -34,5 +34,85 @@
   
   }
 /*@Mediaquerys */
+@media only screen and (max-width: 479px){
 
-/*Section Footer-Inicio*/
+  .historia1 p { 
+    font-size: 12px;
+    margin: 12px;
+  }
+  
+  }
+  @media only screen and (min-width: 480px) and (max-width: 767px){
+  
+    .nav ul li a {
+      font-size: 10px;
+    } 
+  }
+    
+    
+    @media only screen and (max-width: 998px) {
+     
+      /* menú hamburguesa*/
+      #menu-check:not(:checked)~nav {
+        display: none;
+      }
+    
+      #menu-check:checked~nav {
+        display: block;
+      }
+    
+      #menu {
+        display: block;
+        background-color: #767c77;
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 2px solid black;
+        padding: 0.2em;
+        border-radius: 0.3em;
+        position: absolute;
+        right: 0.5em;
+        top: 1em;
+        z-index: 999;
+      }
+    
+      #menu:hover {
+        background-color: #fabea7;
+      }
+    
+      #menu-cerrar {
+        display: none;
+      }
+    
+      #menu-check:checked~label #menu-abrir {
+        display: none;
+      }
+    
+      #menu-check:checked~label #menu-cerrar {
+        display: block;
+      }
+    
+      header nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        top: 80px;
+        height: min-content;
+        background-color: #767c77;
+        padding-right:0.5em;
+        font-size: 3.5em;
+      }
+    
+      header nav ul {
+        display: block;
+        text-align:center;
+      }
+    
+      nav ul li a.active {
+        background: none;
+        color: #fff5e8;
+      }
+    }
+    
+  /*Section Footer-Inicio*/
+  

@@ -39,7 +39,7 @@ header {
 }
 
 .logo img {
-  height: 70px;
+  height: 35px;
 }
 
 nav ul {
@@ -96,10 +96,6 @@ nav ul li a.active {
   min-height: 70px;
   border-top: 4px solid #9CADA4;
   }
-
-footer :hover{
-  background-image: url();
-}
 
 #footerMenu img {
   margin: 1vh;
@@ -204,13 +200,10 @@ footer :hover{
     height: 45%;
     margin-block-start: auto;
   }
-  #footerMenu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+ 
   #footerMenu img {
     margin: 3.5vh;
-    width: 3.5vw;
+    width: 2.5vw;
   }
 }
 
@@ -230,13 +223,9 @@ footer :hover{
       grid-column: 2/4;
   }
 
-  #footerMenu {
-    flex-direction: column;
-    align-items: flex-start;
-  }
   #footerMenu img {
     margin: 3.5vh;
-    width: 3.5vw;
+    width: 2.5vw;
   }
   }
 
@@ -253,7 +242,7 @@ footer :hover{
 
     #footerMenu img {
       margin: 3.5vh;
-      width: 3.5vw;
+      width: 2.5vw;
     }
     }
 
