@@ -39,10 +39,12 @@ header {
 .logo {
   display: flex;
   padding-left: 15px;
+  float:left;
 }
 
 .logo img {
   height: 35px;
+ 
 }
 
 nav ul {
@@ -193,7 +195,7 @@ footer {
 }
 /*Comienzan las @MediaQuearys*/
 @media only screen and (max-width: 479px){
-
+  
   footer {
     display: flex;
     width: 100%;
@@ -206,7 +208,7 @@ footer {
 }
 
   @media only screen and (min-width: 480px) and (max-width: 767px){
-  
+   
   #footerMenu img {
     margin: 3.5vh;
     width: 2.5vw;

@@ -28,7 +28,7 @@ header {
 .logo {
   display:flex; 
   padding-left: 15px;
-  align-items:left;
+  float:left;
 }
 .logo img {
   height: 35px;
@@ -170,7 +170,7 @@ footer {
   .logo {
     display:flex; 
     padding-left: 15px;
-    align-items:left;
+    float:left;
   }
   .logo img {
     height: 35px;
@@ -178,9 +178,7 @@ footer {
   .logo {
     display:none; 
   }
-  h1 {
-    font-weight: 20px;
-  }
+ 
   h2{
     font-size: 15px;
   }
@@ -220,6 +218,14 @@ footer {
   .nav ul li a {
     font-size: 10px;
   } 
+  .logo {
+    display:flex; 
+    padding-left: 15px;
+    float:left;
+  }
+  .logo img {
+    height: 35px;
+  }
   .parrafo p {
     font-size: 14px;
   }
@@ -241,7 +247,14 @@ footer {
   }
 }
 @media only screen and (min-width: 768px){
- 
+  .logo {
+    display:flex; 
+    padding-left: 15px;
+    float:left;
+  }
+  .logo img {
+    height: 35px;
+  }
   .contenedor1{
       grid-template-columns: repeat(4, 1fr);
   }
