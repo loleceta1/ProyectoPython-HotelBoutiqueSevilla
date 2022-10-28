@@ -35,7 +35,54 @@
   }
 /*@Mediaquerys */
 @media only screen and (max-width: 479px){
-
+  nav {
+    height: 84px;
+    background-color: #767C77;
+    border-bottom: 4px solid #9CADA4;
+  }
+  nav ul {
+    height: 100%;
+    margin-left: 50px;
+    padding: 15px;
+    display: flex;
+   float: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 0 25px;
+    transition: 0.4s;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  #FFF5E8;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 15px;
+    text-transform: uppercase;
+  }
+  
+  nav ul:hover li a {
+    opacity: 0.7;
+    filter: blur(1px);
+  }
+  
+  nav ul li a:hover {
+    transition: .5s;
+    filter: blur(0px);
+    transform: scale(1);
+  }
+  
+  nav ul li a.active {
+    background-color: #FABEA7 !important;
+    color:black;
+    transition: .5s
+  } 
+  
   .historia1 p { 
     font-size: 12px;
     margin: 12px;

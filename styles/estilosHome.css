@@ -40,6 +40,7 @@ header {
   display: flex;
   padding-left: 15px;
   float:left;
+  margin-top: 15px;
 }
 
 .logo img {
@@ -189,13 +190,18 @@ footer {
   justify-content: center;
 }
 
-.home h1 {
+.home h2 {
   text-align: center;
   font-size: 3em;
 }
 /*Comienzan las @MediaQuearys*/
 @media only screen and (max-width: 479px){
-  
+  .logo {
+    margin-top: 15px;
+    float: left;
+    margin-right: 200px;
+  }
+
   footer {
     display: flex;
     width: 100%;
@@ -208,7 +214,10 @@ footer {
 }
 
   @media only screen and (min-width: 480px) and (max-width: 767px){
-   
+    .logo {
+      margin-top: 15px;
+      float: left;
+    }
   #footerMenu img {
     margin: 3.5vh;
     width: 2.5vw;
